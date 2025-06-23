@@ -1,0 +1,129 @@
+:root {
+  --primary-color: #b9362f;
+  --secondary-color: #f0f0f0;
+  --text-color: #333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kodchasan", sans-serif;
+}
+
+body {
+  background-color: var(--secondary-color);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.heart-envelope-close {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.heart-envelope-close > img {
+  width: 50%;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.heart-envelope-close > p {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.monthsary-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.happy-monthsary {
+  font-size: 20px;
+  color: var(--primary-color);
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+.monthsary-message {
+  font-size: 16px;
+  color: var(--text-color);
+  font-weight: 400;
+  text-align: justify;
+  width: 50%;
+}
+
+.image-song-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px;
+}
+
+.image-us {
+  width: 70%;
+  rotate: -20deg;
+}
+
+.song-content {
+  text-align: center;
+  color: var(--primary-color);
+  font-weight: 600;
+  width: 20%;
+}
+
+.song-artist {
+  color: var(--text-color);
+}
+
+audio {
+  margin: 20px 0;
+  background-color: var(--primary-color);
+  padding: 10px;
+  border: none;
+  border-radius: 30px;
+}
+
+.envelope-open {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.envelope-open > img {
+  width: 40%;
+}
+
+.envelope-close > p {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+@keyframes liftUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.lift-up-animate {
+  animation: liftUp 0.5s ease-out forwards;
+}
