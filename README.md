@@ -2,7 +2,7 @@
 A sweet and interactive website made with love to celebrate our first monthsary! 💖
 
 ## 🌟 Features
-- 🎶 Auto-rotating love songs every 30 seconds (locally hosted)
+- Auto-rotating love songs every 30 seconds (locally hosted)
 
 
 ## 🛠️ Built With
