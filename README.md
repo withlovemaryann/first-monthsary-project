@@ -20,5 +20,10 @@ Images were sourced from **Canva** and are used for decorative/personal purposes
 
 ---
 
+## 💌 Disclaimer
+This is a personal project and not intended for commercial use. All rights to media belong to their original creators.
+
+---
+
 > with love,  
 > [@withlovemaryann](https://github.com/withlovemaryann)
